@@ -1,3 +1,5 @@
 streamlit
 pyyaml
 bcrypt
+streamlit>=1.20
+
