@@ -2,4 +2,5 @@ streamlit
 pyyaml
 bcrypt
 streamlit>=1.20
+streamlit_autorefresh
 
