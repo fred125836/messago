@@ -1,0 +1,227 @@
+alice:
+- from: nonso
+  message: 'how are you doing '
+  time: '2025-09-01 11:03:18'
+- &id001
+  from: alice
+  message: i'm good, what about you?
+  time: '2025-09-01 11:08:26'
+  to: nonso
+- &id002
+  from: alice
+  message: how is your day going
+  time: '2025-09-01 11:10:54'
+  to: nonso
+- &id003
+  from: nonso
+  message: 'My day is going very well '
+  time: '2025-09-01 11:13:41'
+  to: alice
+- &id004
+  from: alice
+  message: how was your night
+  time: '2025-09-01 11:17:53'
+  to: nonso
+- &id005
+  from: alice
+  message: i hope you are having a great time over there
+  time: '2025-09-01 11:26:19'
+  to: nonso
+- &id006
+  from: alice
+  message: 'Yes I am, thanks for asking '
+  time: '2025-09-01 11:28:12'
+  to: nonso
+- &id007
+  from: alice
+  message: "\U0001F970"
+  time: '2025-09-01 11:28:34'
+  to: nonso
+- &id008
+  from: alice
+  message: "\U0001F970"
+  time: '2025-09-01 11:28:37'
+  to: nonso
+- &id009
+  from: alice
+  message: "\U0001F970"
+  time: '2025-09-01 11:28:48'
+  to: nonso
+- &id010
+  from: alice
+  message: "\U0001F970"
+  time: '2025-09-01 11:28:49'
+  to: nonso
+group:
+- from: nonso
+  message: 'Who is in the house '
+  time: '2025-09-01 13:30:45'
+- from: alice
+  message: i am here, thank you
+  time: '2025-09-01 13:31:03'
+- from: alice
+  message: what are we going to eat today bro
+  time: '2025-09-01 13:35:26'
+- from: alice
+  message: i dont know yet, what about you
+  time: '2025-09-01 13:35:50'
+- from: atanda
+  message: 'How is your day '
+  time: '2025-09-01 13:47:46'
+- from: nonso
+  message: 'Good '
+  time: '2025-09-01 13:49:03'
+- from: alice
+  message: hello there
+  time: '2025-09-01 14:21:59'
+- from: atanda
+  message: 'Who is in the group chat today '
+  time: '2025-09-01 14:27:50'
+- from: atanda
+  message: 'Who is in the group chat today '
+  time: '2025-09-01 14:27:52'
+- from: nonso
+  message: "I\u2019m here "
+  time: '2025-09-01 14:41:50'
+- from: atanda
+  message: Kk
+  time: '2025-09-01 14:42:26'
+- from: alice
+  message: kk
+  time: '2025-09-01 14:42:35'
+nonso:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+private:
+  alice:
+  - &id027
+    from: alice
+    message: how are you doing
+    time: '2025-09-01 11:39:27'
+    to: nonso
+  - &id028
+    from: nonso
+    message: "I\u2019m good, and you"
+    time: '2025-09-01 11:41:21'
+    to: alice
+  - &id029
+    from: nonso
+    message: "I\u2019m fine thank you "
+    time: '2025-09-01 13:30:20'
+    to: alice
+  - &id030
+    from: nonso
+    message: 'How is your day going '
+    time: '2025-09-01 13:34:43'
+    to: alice
+  - &id011
+    from: alice
+    message: how are you doing
+    time: '2025-09-01 14:00:19'
+    to: atanda
+  - &id012
+    from: alice
+    message: how are you doing
+    time: '2025-09-01 14:00:23'
+    to: atanda
+  - &id013
+    from: atanda
+    message: 'How are you '
+    time: '2025-09-01 14:27:05'
+    to: alice
+  - &id014
+    from: atanda
+    message: 'How your side '
+    time: '2025-09-01 14:34:47'
+    to: alice
+  - &id015
+    from: atanda
+    message: 'I dey my bro '
+    time: '2025-09-01 14:35:05'
+    to: alice
+  - &id016
+    from: alice
+    message: 'ccvcv '
+    time: '2025-09-01 14:35:40'
+    to: atanda
+  - &id017
+    from: atanda
+    message: 'Shey make I come your house  '
+    time: '2025-09-01 14:35:49'
+    to: alice
+  - &id018
+    from: alice
+    message: i am not at home my bro
+    time: '2025-09-01 14:36:16'
+    to: atanda
+  - &id019
+    from: atanda
+    message: 'Alright '
+    time: '2025-09-01 14:36:30'
+    to: alice
+  - &id020
+    from: atanda
+    message: 'Damn '
+    time: '2025-09-01 14:39:27'
+    to: alice
+  - &id021
+    from: atanda
+    message: 'How your side my bro '
+    time: '2025-09-04 16:05:22'
+    to: alice
+  - &id022
+    from: alice
+    message: i dey o, what about you?
+    time: '2025-09-04 16:05:44'
+    to: atanda
+  - &id023
+    from: atanda
+    message: 'I''m good '
+    time: '2025-09-04 16:06:09'
+    to: alice
+  - &id024
+    from: alice
+    message: how your side my bro
+    time: '2025-09-05 11:36:21'
+    to: atanda
+  - &id025
+    from: atanda
+    message: i dey okay bro
+    time: '2025-09-05 11:36:38'
+    to: alice
+  - &id026
+    from: alice
+    message: alright cool, i go even like reach your side this night abi wetin you
+      think
+    time: '2025-09-05 11:37:06'
+    to: atanda
+  atanda:
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - *id015
+  - *id016
+  - *id017
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - *id022
+  - *id023
+  - *id024
+  - *id025
+  - *id026
+  nonso:
+  - *id027
+  - *id028
+  - *id029
+  - *id030
